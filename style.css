@@ -1,0 +1,47 @@
+/* Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Layout */
+.container{
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: calc(100%/3);
+    padding: 5px;
+}
+/* Commons */
+/* Products */
+.product{
+    padding: 10px;
+    position: relative;
+    background-color: aqua;
+}
+.product img{
+    width: 100%;
+}
+.brand{
+    color: #7f7f7f;
+    font-size: 12px;
+}
+.description{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.cost{
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: bold;
+}
+.old-cost{
+    color: #7e9191;
+    text-decoration: line-through;
+}
