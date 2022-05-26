@@ -32,7 +32,6 @@ body{
 /* Products */
 .product{
     padding: 10px;
-    position: relative;
 }
 .product img{
     width: 100%;
@@ -58,26 +57,24 @@ body{
 .image-product{
     position: relative;
 }
-.discount{
-    position: absolute;
-    bottom: 3%;
-    left: 0;
-    padding: 3px 6px;
-    font-size: 10px;
-    color: #ffffff;
-    font-weight: bold;
-}
+/* Tags */
 .tag{
     position: absolute;
     bottom: 3%;
-    left: 11%;
     padding: 3px 6px;
     font-size: 10px;
     color: #ffffff;
     font-weight: bold;
 }
+.discount{
+    left: 0;
+}
+.product-sustainability{
+    left: 11%;
+}
 .heart{
     position: absolute;
+    cursor: pointer;
     top: 5%;
     right: 0;
     background-color: #ffffff;
@@ -85,3 +82,6 @@ body{
     padding: 5px 10px;
     font-size: 20px;
 }
+.heart:hover{
+    color: #ff0000;
+} 
